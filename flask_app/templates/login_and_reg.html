@@ -107,7 +107,7 @@
         </div>
 
         <div class="login-reg-box col-4 text-light shadow">
-            <h1 class="text-warning mb-1">Login</h1>
+            <h1 class="text-info mb-1">Login</h1>
             <form action='/login' method='POST'>
 
                 {% for message in get_flashed_messages (category_filter = ['invalid_info']) %}
@@ -126,7 +126,7 @@
                     <input type="password" class="form-control" name="password">
                 </div>
 
-                <input type='submit' value="Submit" class="btn btn-warning">
+                <input type='submit' value="Submit" class="btn btn-info">
             </form>
 
         </div>
